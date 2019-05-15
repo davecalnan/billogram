@@ -2,6 +2,9 @@
   "name": "billogram",
   "version": "0.1.0",
   "description": "Universal client for Billogram's API.",
+  "repository": "github:davecalnan/billogram",
+  "homepage": "https://github.com/davecalnan/billogram#readme",
+  "bugs": "https://github.com/davecalnan/billogram/issues",
   "main": "dist/main.js",
   "scripts": {
     "test": "jest",
@@ -9,7 +12,7 @@
     "prepare": "npm run build && npm run test"
   },
   "keywords": [],
-  "author": "",
+  "author": "Dave Calnan <d@ve.ie>",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
