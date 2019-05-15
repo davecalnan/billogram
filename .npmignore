@@ -1,0 +1,8 @@
+__tests__
+src
+node_modules
+.env
+.gitignore
+.gitiattributes
+package-lock.json
+webpack.config.js
