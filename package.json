@@ -1,11 +1,12 @@
 {
   "name": "billogram",
   "version": "0.1.0",
-  "description": "",
-  "main": "src/index.js",
+  "description": "Universal client for Billogram's API.",
+  "main": "dist/main.js",
   "scripts": {
     "test": "jest",
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "prepare": "npm run build && npm run test"
   },
   "keywords": [],
   "author": "",
