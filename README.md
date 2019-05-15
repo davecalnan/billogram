@@ -4,7 +4,7 @@ A universal (runs in node and in browser) promise-based client for [Billogram](h
 
 *Example usage:*
 ```js
-import Billogram from 'billgoram-api-client'
+import Billogram from 'billogram-api-client'
 
 const client = new Billogram({
   username: API_USER,
@@ -20,7 +20,7 @@ const billogram = await client.billograms.find(id)
 
 Import the package and create a client with your user credentials:
 ```js
-import Billogram from 'billgoram-api-client'
+import Billogram from 'billogram-api-client'
 
 const client = new Billogram({
   username: 'your-api-user',
