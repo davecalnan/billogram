@@ -4,12 +4,15 @@ A universal (runs in node and in browser) promise-based client for [Billogram](h
 
 *Example usage:*
 ```js
+import Billogram from 'billgoram-api-client'
+
 const client = new Billogram({
   username: API_USER,
   password: API_PASSWORD
 })
 
-const billogram = await client.billograms.find(CDAEyKE)
+/* inside async function */
+const billogram = await client.billograms.find(id)
 ```
 
 ## How to use
@@ -43,7 +46,7 @@ const item = await client.items.create({ ...itemData })
 
 ### Promise-based
 
-Each method returns a promise so you can use either then/catch or async/await.
+Each method returns a promise so you can use either [then/catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises#Chaining) or [async/await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function#Examples).
 
 ```js
 client.billograms

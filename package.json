@@ -1,5 +1,5 @@
 {
-  "name": "billogram",
+  "name": "billogram-api-client",
   "version": "0.1.0",
   "description": "Universal client for Billogram's API.",
   "repository": "github:davecalnan/billogram",
