@@ -1,5 +1,7 @@
 # Billogram API Client
 
+![npm version](https://img.shields.io/npm/v/billogram-api-client.svg) ![npm bundle size](https://img.shields.io/bundlephobia/min/billogram-api-client.svg) ![licence](https://img.shields.io/npm/l/billogram-api-client.svg)
+
 A promise-based client for [Billogram](https://billogram)'s [API](https://billogram.com/api).
 
 *Example usage:*
