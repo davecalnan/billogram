@@ -4,5 +4,6 @@ node_modules
 .env
 .gitignore
 .gitiattributes
+jest.config.js
 package-lock.json
 webpack.config.js
