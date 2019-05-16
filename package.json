@@ -1,7 +1,7 @@
 {
   "name": "billogram-api-client",
-  "version": "0.1.2",
-  "description": "Universal client for Billogram's API.",
+  "version": "0.1.3",
+  "description": "Promise-based client for Billogram's API.",
   "repository": "github:davecalnan/billogram",
   "homepage": "https://github.com/davecalnan/billogram#readme",
   "bugs": "https://github.com/davecalnan/billogram/issues",

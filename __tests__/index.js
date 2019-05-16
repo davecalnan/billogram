@@ -410,7 +410,6 @@ describe('billograms', () => {
     })
   })
 
-  /* Not sure this test is uploading a pdf correctly. */
   test('can have a pdf attached', async () => {
     const [customer, item] = await Promise.all([
       client.customers.create(samples.customer),
