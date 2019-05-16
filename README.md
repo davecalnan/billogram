@@ -1,6 +1,6 @@
 # Billogram API Client
 
-A universal (runs in node and in browser) promise-based client for [Billogram](https://billogram)'s [API](https://billogram.com/api).
+A promise-based client for [Billogram](https://billogram)'s [API](https://billogram.com/api).
 
 *Example usage:*
 ```js
