@@ -17,6 +17,16 @@ const client = new Billogram({
 const billogram = await client.billograms.find(id)
 ```
 
+## Installation
+
+Make sure you have npm or yarn installed.
+
+```sh
+npm i billogram-api-client
+# or
+yarn add billogram-api-client
+```
+
 ## How to use
 [Create an API user]((https://billogram.com/documentation#authentication)) within the Billogram UI.
 
